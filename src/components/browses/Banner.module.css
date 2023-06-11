@@ -1,0 +1,34 @@
+.container {
+  width: 100vw;
+  height: 300px;
+  position: relative;
+}
+
+.container img {
+  width: 100%;
+  height: 100%;
+}
+
+.text {
+  width: 40%;
+  height: 200px;
+  position: absolute;
+  bottom: 2rem;
+  left: 1rem;
+  color: white;
+}
+
+.text p {
+  height: 100px;
+  overflow-y: auto;
+}
+
+.btn button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0.25);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
